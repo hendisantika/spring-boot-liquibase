@@ -1,0 +1,22 @@
+spring-boot-liquibase-mysql:
+  container_name: spring-boot-liquibase-mysql
+  hostname: spring-boot-liquibase-mysql
+  image: mysql:5
+  environment:
+    MYSQL_ROOT_PASSWORD: spring-bood-liquibase
+    MYSQL_DATABASE: spring-bood-liquibase
+    MYSQL_USER: spring-bood-liquibase
+    MYSQL_PASSWORD: spring-bood-liquibase
+  ports:
+    - "13306:3306"
+spring-boot-liquibase-mysql-test:
+  container_name: spring-boot-liquibase-mysql-test
+  hostname: spring-boot-liquibase-mysql-test
+  image: mysql:5
+  environment:
+    MYSQL_ROOT_PASSWORD: spring-bood-liquibase-test
+    MYSQL_DATABASE: spring-bood-liquibase-test
+    MYSQL_USER: spring-bood-liquibase-test
+    MYSQL_PASSWORD: spring-bood-liquibase-test
+  ports:
+    - "23306:3306"

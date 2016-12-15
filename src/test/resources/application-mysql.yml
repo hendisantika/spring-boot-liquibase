@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:23306/spring-bood-liquibase-test?useSSL=false&verifyServerCertificate=false&requireSSL=false
+    username: spring-bood-liquibase-test
+    password: spring-bood-liquibase-test
+  jpa:
+    hibernate.ddl-auto: create-drop
+    show-sql: true
