@@ -8,3 +8,4 @@ spring:
     hibernate.ddl-auto: validate
     properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
     show-sql: false
+liquibase.enabled: true

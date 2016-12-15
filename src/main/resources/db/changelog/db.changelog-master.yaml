@@ -18,3 +18,15 @@ databaseChangeLog:
             type: varchar(255)
             constraints:
               nullable: false
+- changeSet:
+    id: v.2016-12-14-02
+    author: daggerok
+    changes:
+    - addColumn:
+        tableName: user
+        columns:
+        - column:
+            name: email
+            type: varchar(255)
+            constraints:
+              nullable: true
