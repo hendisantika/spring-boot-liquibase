@@ -1,20 +1,20 @@
 databaseChangeLog:
-  - changeSet:
-      id: v.2016-12-14-01
-      author: daggerok
-      changes:
-        - createTable:
-            tableName: user
-            columns:
-              - column:
-                  name: id
-                  type: bigint
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-                    nullable: false
-              - column:
-                  name: username
-                  type: varchar(255)
-                  constraints:
-                    nullable: false
+- changeSet:
+    id: v.2016-12-14-01
+    author: daggerok
+    changes:
+    - createTable:
+        tableName: user
+        columns:
+        - column:
+            name: id
+            type: bigint
+            autoIncrement: true
+            constraints:
+              primaryKey: true
+              nullable: false
+        - column:
+            name: username
+            type: varchar(255)
+            constraints:
+              nullable: false
