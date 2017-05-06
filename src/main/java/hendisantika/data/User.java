@@ -1,4 +1,4 @@
-package daggerok.data;
+package hendisantika.data;
 
 import lombok.Data;
 

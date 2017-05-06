@@ -1,4 +1,4 @@
-package daggerok;
+package hendisantika;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
