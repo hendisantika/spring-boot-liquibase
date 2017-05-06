@@ -1,7 +1,7 @@
 databaseChangeLog:
 - changeSet:
-    id: v.2016-12-14-01
-    author: daggerok
+    id: v.2017-05-06-01
+    author: hendisantika
     changes:
     - createTable:
         tableName: user
@@ -19,8 +19,8 @@ databaseChangeLog:
             constraints:
               nullable: false
 - changeSet:
-    id: v.2016-12-14-02
-    author: daggerok
+    id: v.2017-05-06-02
+    author: hendisantika
     changes:
     - addColumn:
         tableName: user
