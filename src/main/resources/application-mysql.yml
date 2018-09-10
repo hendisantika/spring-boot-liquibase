@@ -1,8 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/spring-bood-liquibase?useSSL=false&verifyServerCertificate=false&requireSSL=false
-#    username: spring-bood-liquibase
-#    password: spring-bood-liquibase
+    url: jdbc:mysql://localhost:3306/SBLiquibase?createDatabaseIfNotExist=true&useSSL=false&verifyServerCertificate=false&requireSSL=false
     username: root
     password: root
   jpa:

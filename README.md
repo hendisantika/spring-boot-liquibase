@@ -3,8 +3,8 @@
 
 ```bash
 docker-compose up
-gradle test
-gradle bootRun
+gradle clean test
+gradle clean bootRun
 ```
 
 read more:
